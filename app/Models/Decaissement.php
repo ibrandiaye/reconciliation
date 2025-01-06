@@ -11,4 +11,8 @@ class Decaissement extends Model
     protected $fillable = [
         'montant','commentaire','projet_id'
     ];
+    public function projet()
+    {
+        return $this->belongsTo(Projet::class);
+    }
 }

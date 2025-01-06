@@ -11,4 +11,9 @@ class Bureau extends Model
     protected $fillable = [
         'nom','projet_id'
     ];
+
+    public function projet()
+    {
+        return $this->belongsTo(Projet::class);
+    }
 }

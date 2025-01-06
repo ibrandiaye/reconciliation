@@ -125,8 +125,50 @@
                                     <li><a href="{{ route('projet.index') }}">Liste des projets</a></li>
                                 </ul>
                             </li>
-
-
+                            <li>
+                                <a href="javascript: void(0);" class="waves-effect waves-light">
+                                    <i class="mdi mdi-google-pages"></i>
+                                    <span> Bureau </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li><a href="{{ route('bureau.create') }}">Ajouter bureau</a></li>
+                                    <li><a href="{{ route('bureau.index') }}">Liste des bureaus</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="waves-effect waves-light">
+                                    <i class="mdi mdi-google-pages"></i>
+                                    <span> Decaissement </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li><a href="{{ route('decaissement.create') }}">Ajouter bureau</a></li>
+                                    <li><a href="{{ route('decaissement.index') }}">Liste des bureaus</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="waves-effect waves-light">
+                                    <i class="mdi mdi-google-pages"></i>
+                                    <span> Affectation </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li><a href="{{ route('affectation.create') }}">Ajouter bureau</a></li>
+                                    <li><a href="{{ route('affectation.index') }}">Liste des bureaus</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="waves-effect waves-light">
+                                    <i class="mdi mdi-google-pages"></i>
+                                    <span> Reconciliation </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li><a href="{{ route('reconciliation.create') }}">Ajouter bureau</a></li>
+                                    <li><a href="{{ route('reconciliation.index') }}">Liste des bureaus</a></li>
+                                </ul>
+                            </li>
                         </ul>
 
                     </div>
@@ -249,9 +291,7 @@
     <!-- Right bar overlay-->
     <div class="rightbar-overlay"></div>
 
-    <a href="javascript:void(0);" class="right-bar-toggle demos-show-btn">
-        <i class="mdi mdi-settings-outline mdi-spin"></i> &nbsp;Choose Demos
-    </a>
+
 
     <!-- Vendor js -->
     <script src="{{ asset('assets/js/vendor.min.js') }}"></script>
